@@ -35,5 +35,5 @@ epsilon_decay = 0.9995,
 The agent was trained for 100 episodes, and the results are shown below.
 
 <center>
-<img src="deep_sarsa.png" style="width:75%">
+<img src="deep_sarsa.png" style="width:65%">
 </center>
