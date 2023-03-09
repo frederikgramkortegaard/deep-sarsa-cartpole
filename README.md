@@ -19,15 +19,6 @@ $ pip install -r requirements.txt
 $ python3 agent.py
 ```
 
-
-## Performance
-
-The agent was trained for 100 episodes, and the results are shown below.
-
-<center>
-<img src="deep_sarsa.png" style="width:85%">
-</center>
-
 ## Hyperparameters
 ```python
 gamma = 0.9,
@@ -39,4 +30,10 @@ learning rate = 0.01,
 epsilon_decay = 0.9995,
 ```
 
+## Performance
 
+The agent was trained for 100 episodes, and the results are shown below.
+
+<center>
+<img src="deep_sarsa.png" style="width:85%">
+</center>
