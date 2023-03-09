@@ -33,7 +33,8 @@ epsilon_decay = 0.9995,
 ## Performance
 
 The agent was trained for 100 episodes, and the results are shown below.
-
+:speech_balloon: Note, the volatility in the duration post episode 40 is primarily caused by the lower bound of `epsilon = 0.01`, making `1%` of all actions random.
 <p align="center">
 <img src="deep_sarsa.png" style="width:65%">
 </p>
+
