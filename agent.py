@@ -166,6 +166,9 @@ class Agent:
 
             episode_reward = 0
             while not done or not truncated:
+                if episode > 40:
+                    self.env.render()
+
                 next_state, reward, done, truncated = self.env.step(action)
 
                 next_action = self.get_action(next_state)
