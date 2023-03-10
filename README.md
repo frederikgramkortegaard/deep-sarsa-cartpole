@@ -39,10 +39,3 @@ learning rate = 0.01,
 epsilon_decay = 0.9995,
 ```
 
-## Performance
-
-The agent was trained for 100 episodes, and the results are shown below. It should be noted that the volatility in the duration post episode 40 is primarily caused by the lower bound of `epsilon = 0.01`, making one percent of all actions taken completely random.
-<p align="center">
-<img src="deep_sarsa.png" style="width:65%">
-</p>
-
