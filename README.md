@@ -23,10 +23,10 @@ $ python3 agent.py
 ## Performance
 
 The agent was trained for 100 episodes, and the results are shown below.
-
-<center>
-<img src="deep_sarsa.png" style="width:85%">
-</center>
+<p align="center">
+<img src="demo.gif" >
+<img src="deep_sarsa.png">
+</p>
 
 ## Hyperparameters
 ```python
